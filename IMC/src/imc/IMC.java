@@ -41,7 +41,6 @@ public class IMC {
             String formatado = String.format("%.2f", imc);
 
             JOptionPane.showMessageDialog(null, "Seu IMC é: " + formatado);
-            break;
         } while (dec.equals("m") == false || dec.equals("M") == false || dec.equals("f") == false || dec.equals("F") == false );
     }
 }
