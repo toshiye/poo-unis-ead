@@ -43,5 +43,4 @@ public class IMC {
             JOptionPane.showMessageDialog(null, "Seu IMC é: " + formatado);            
         } while (dec.equals("m") == false || dec.equals("M") == false || dec.equals("f") == false || dec.equals("F") == false );
     }
-    
 }
